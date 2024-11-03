@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="menunavegacion">
+        <ul>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#quehago">Qué hago</a></li>
+            <li><a href="#conectate">Conéctate conmigo</a></li>
+            <li><a href="#conocimientos">Mis Conocimientos</a></li>
+            <li><a href="#misproyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Contenedor principal de la página -->
+    <div class="contenedor">
+        <!-- Sección principal de la página -->
+        <main>
+            <!-- Título principal de la página -->
+            <h1>Bienvenido a mi Portafolio</h1>
+
+            <!-- Imagen representativa -->
+            <section id="imagenPresentacion">
+                <h2 id="tituloImagen">Mi foto</h2>
+                <img src="assets/img/miimagen.jpeg" alt="Foto de Mauricio" id="miImagen">
+            </section>
+
+            <!-- Sección Sobre mí -->
+            <section class="seccion" id="sobremi">
+                <h2 class="titulo">Sobre mí</h2>
+                <h3>¡Hola, soy Mauricio!</h3>
+                <p>Soy estudiante de la Tecnicatura Superior en Desarrollo de Software, con un gran interés en el desarrollo web y la programación. Mi objetivo es aplicar mis conocimientos para crear soluciones innovadoras y eficientes.</p>
+    
+                <p>Tengo experiencia en lenguajes como <strong>HTML, CSS, JavaScript, Python y C#</strong>, y siempre estoy en busca de nuevas herramientas y tecnologías que me ayuden a mejorar mis habilidades. Actualmente, me estoy enfocando en aprender más sobre frameworks de desarrollo web y en profundizar mis conocimientos en <strong>desarrollo backend</strong>.</p>
+    
+                <p>Más allá de mis estudios, me encanta colaborar en proyectos que puedan marcar una diferencia y trabajar en equipo para superar retos. Soy una persona curiosa, creativa y orientada a la resolución de problemas, con el objetivo de construir una carrera sólida en el mundo del desarrollo.</p>
+                <p>Soy un apasionado por la tecnología y la programación, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades.</p>
+            </section>
+
+            <!-- Sección Qué hago -->
+            <section id="quehago" class="seccion">
+                <h2 class="titulo">Qué hago</h2>
+                <div id="quehagocont">
+                    <div class="quehagocada">
+                        <h3>Desarrollo Web</h3>
+                        <p>Estudio para poder lograr la creación de sitios web modernos y adaptativos utilizando tecnologías como <strong>HTML, CSS, y JavaScript</strong>. Mi enfoque quiero que esté en construir interfaces intuitivas, funcionales y estéticamente atractivas, asegurando que la experiencia del usuario sea óptima en cualquier dispositivo. A través del uso de <strong>principios de diseño responsivo y técnicas de UX/UI</strong>, me aseguro de que cada proyecto esté lo más optimizado posible.</p>
+                        <p>Además, estoy en constante aprendizaje sobre frameworks de desarrollo, que me permiten desarrollar aplicaciones web dinámicas y altamente interactivas. Trabajo también con tecnologías backend como <strong>Node.js</strong> para crear soluciones completas, logrando una integración eficiente entre el frontend y el backend.</p>
+                    </div>
+                    <div class="quehagocada">
+                        <h3>Programación Orientada a Objetos</h3>
+                        <p>Estudio para aplicar los principios de la <strong>Programación Orientada a Objetos (POO)</strong> para diseñar soluciones escalables y bien estructuradas. Utilizo conceptos fundamentales como <strong>clases, herencia, encapsulamiento y polimorfismo</strong> para crear software modular y fácil de mantener. Mi experiencia en POO incluye el desarrollo de aplicaciones en lenguajes como <strong>Python y C#</strong>, donde aplico patrones de diseño y buenas prácticas para optimizar el rendimiento y la reutilización del código.</p>
+                        <p>Este enfoque me permite crear sistemas que son flexibles y adaptables, facilitando su expansión a medida que los requerimientos del proyecto cambian. Mi objetivo es construir software robusto y eficiente, que se adapte a diferentes necesidades y que ofrezca una base sólida para el desarrollo de futuras funcionalidades.</p>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!-- Enlaces y redes sociales -->
+            <article class="seccion" id="conectate">
+                <h2 class="titulo">Conéctate conmigo</h2>
+                <a href="http://www.linkedin.com/in/mauricio-j-galera" target="_blank">Visita mi LinkedIn</a>
+            </article>
+
+            
+
+            <!-- Sección de conocimientos-->
+            <section class="seccion" id="conocimientos">
+                <h2 class="titulo">Mis Conocimientos</h2>
+                <!-- Tabla de conocimientos -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Conocimiento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Básico</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Básico</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>C#</td>
+                            <td>Intermedio</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!--Sección de proyectos -->
+            <section class="seccion" id="misproyectos">
+                <h2 class="titulo">Mis Proyectos</h2>
+                <div id="proyectoscont">
+                    <div class="proyectoscada">
+                        <img src="assets/img/proyecto1.png" alt="Proyecto 1">
+                        <h3>Clínica SePrice</h3>
+                        <p>Trabajo realizado en grupo para la materia <strong>Programación Orientada a Objetos</strong> que requería crear el software administrativo para una clínica.</p>
+                        <p>En este proyecto se utilizaron las siguientes tecnologías: NestJS, TypeORM para el backend, Angular como framework para el frontend y MySQL para la gestión de las bases de datos</p>
+                    </div>
+                    <div class="proyectoscada">
+                        <img src="assets/img/proyecto2.png" alt="Proyecto 2">
+                        <h3>CV de ejemplo</h3>
+                        <p>Trabajo final de un curso introductorio de desarrollo web orientado al frontend utilizando HTML, CSS y JavaScript.</p>
+                        <a href="https://mauriciojgalera.github.io/trabajofinal/" target="_blank">Link al proyecto</a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--Sección de testimonios -->
+            <section class="seccion" id="testimonios">
+                <h2 class="titulo">Testimonios</h2>
+                <p>En esta sección a futuro se incluirán los testimonios de clientes para los cuales realice mis proyectos de manera profesional.</p>
+                <div class="testimoniocada">
+                    <p>"Mauricio hizo un trabajo excelente en nuestro proyecto. Su dedicación fue excepcional."</p>
+                    <span>- Cliente 1</span>
+                </div>
+                <div class="testimoniocada">
+                    <p>"Su conocimiento en desarrollo web y Python fue clave para el éxito de nuestro equipo."</p>
+                    <span>- Cliente 2</span>
+                </div>
+            </section>
+
+            <!-- Sección de contacto -->
+            <section class="seccion" id="contacto">
+                <h2 class="titulo">Contacto</h2>
+                <!-- Formulario de contacto -->
+                <form action="#" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Mauricio">
+                    </div>
+                    
+                    <div>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required placeholder="Galera">
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="mauriciogalera@mail.com">
+                    </div>
+                    
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="+542230000000">
+                    </div>
+                    
+                    <div>
+                        <button type="submit">
+                            <i class="fas fa-envelope"></i> Enviar
+                        </button>
+                    </div>
+                </form>
+            </section>
+            
+        </main>
+    </div>
+</body>
+</html>
